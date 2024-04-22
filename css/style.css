@@ -1,7 +1,194 @@
-/* Geral */
+/* GERAL */
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #0099DD;
+}
+
+/* CONTAINER */
+
+#main-container{
+    display: flex;
+    margin-top: 30px;
+}
+
+#banner-container,
+#form-container{
+    flex: 1 1 0;
+    width: 50%;
+    
+}
+
+#banner-container{
+    text-align: right;
+}
+
+#banner-container img{
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 380px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+#form-container{
+    text-align: center;
+}
+
+/* LOGIN FORM */
+
+#form-box{
+    background-color: #cfcfcf;
+    border: 1px solid #000;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#logo-boleiros{
+    width: 300px;
+    height: 80px;
+    margin: 30px auto 12px;
+}
+
+#login-form{
+    margin-top: 20px;
+}
+
+#login-form input{
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
+#login-form input[type="submit"] {
+    background-color: #0099DD;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 6px;
+    height: 32px;
+    font-size: 13px;
+    padding: 0;
+    font-weight: 600px;
+}
+
+/* FORGOT PASSWORD */
+
+#forgot-pass{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+#forgot-pass a{
+    text-decoration: none;
+}
+
+/* REGISTER */
+
+#register-container{
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+#register-container p{
+    font-size: 14px;
+    color: #262626;
+}
+
+#register-container a{
+    text-decoration: none;
+    font-weight: 600px;
+    
+}
+
+/* FOOTER */
+
+footer{
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2{
+    color: #fff;
+}
+
+footer #footer-links{
+    display: flex;
+    list-style: none;
+}
+
+footer #footer-links i{
+    color: #fff;
+   padding-right: 30px;
+   font-size: 30px;
+}
+#footer-links a,
+#copyright{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+#copyright{
+    margin-top: 10px;
+}
+
+#copyright a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* MOBILE */
+
+@media (max-width: 450px) {
+    body{
+        background-color: #fff;
+    }
+
+    #banner-container{
+        display: none;
+    }
+
+    #main-container,
+    #form-box{
+        margin-top: 0;
+    }
+
+    #form-container,
+    #form-box,
+    #register-containaer,
+    #get-app-container{
+        width: 100%;
+        border: none;
+    }
+
+    footer{
+        width: 90%;
+    }
+
+    #footer-links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #footer-links{
+        margin-bottom: 10px;
+    }
 }
