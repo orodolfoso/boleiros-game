@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,52 +8,37 @@
     <!-- FAVICON -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!-- ICONES -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
-<main>
-    <div id="main-container">
-        <!-- Banner container -->
-        <div id="banner-container">
-            <img src="imagens/imagem-banner1.png" alt="Jogador de futebol">
-        </div>
-        <!-- Login e Registro -->
-        <div id="form-container">
-            <div id="form-box">
-                <img id="logo-boleiros" src="imagens/logo-sem fundo.png" alt="Logo Boleiros Game">
-                <form id="login-form">
-                    <input type="text" name="username" placeholder="Nome de usuário ou e-mail">
-                    <input type="password" name="password" placeholder="Senha">
-                    <input type="submit" value="Entrar">
-                </form>
-                <div id="forgot-pass">
-                    <a href="#">Esqueceu a senha?</a>
-                </div>
-                <div id="register-container">
-                    <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
-                </div>
+    <div class="container">
+        <form>
+            <img src="imagens/logo-bg.png" alt="Logo">
+            <div class="input-container">
+                <input type="email" placeholder="E-mail ou telefone" required>
+                <i class="bi bi-envelope-fill"></i>
             </div>
-        </div>
-    </div>
-</main>
 
-<footer>
-        <h2>Nossas Redes Sociais</h2>
-        <ul id="footer-links">
-            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
-            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-        </ul>
-    <div id="copyright">
-        <p>&copy; 2024 Boleiros Game</p>
+            <div class="input-container">
+                <input type="password" placeholder="Senha" required>
+                <i class="bi bi-shield-lock-fill"></i>
+            </div>
+            <button type="submit" class="btn-open">Entrar</button>
+
+            <p>Esqueceu a senha?<a href="#">Clique aqui</a></p>
+
+            <button class="create-account">Criar nova conta</button>
+        </form>
     </div>
-</footer>
-    
+
 </body>
+
 </html>
