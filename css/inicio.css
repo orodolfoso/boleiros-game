@@ -71,20 +71,20 @@
 
 .slider-box {
     width: 25%;
-    height:auto;
+    height: auto;
     position: relative;
     text-align: center;
     transition: 1s;
 }
 
-.sllider-box img {
+.slider-box img {
     width: 100%;
 }
 
 .nav-manual, .nav-auto {
     position: absolute;
     width: 100%;
-    margin-top: 35px;
+    margin-top: 35%;
     display: flex;
     justify-content: center;
 }
@@ -120,3 +120,71 @@
 #radio3:checked ~ .first {
     margin-left: -50%;
 }
+
+/* Section */
+
+
+.container-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #076c97;
+    
+}
+
+.container-cards:hover {
+    background-color: #23799e;
+}
+
+.championships img {
+    border-radius: 50px;
+    width: 250px;
+    padding: 30px;
+    
+
+}
+
+.championships img:hover {
+    transform: scale(1.2);
+}
+
+.championships h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.links-champ {
+    position: relative;
+    left: 65px;
+}
+
+.links-champ:hover {
+    color: #e9dcdc;
+}
+
+/* Section Departures */
+
+.departures {
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.times {
+    display: flex;
+    gap: 50px;
+}
+
+.departures img {
+    display: flex;
+    width: 5%;
+    height: 5%;
+}
+
+
