@@ -187,4 +187,40 @@
     height: 5%;
 }
 
+/* Table */
+
+.today-play {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #053f58;
+    color: #fff;
+    box-shadow: 0px 2px 4px #888888;
+    border-collapse: collapse;
+    border:2px solid #000;
+    td {
+    height: 50px;
+    width: 100px;
+    }
+}
+
+#header td {
+    height: 80px;
+}
+
+.nav-lateral {
+    width: 200px;
+}
+
+.nav-destaque {
+    background-color: #02212e;
+    border-bottom: 3px solid #fff;
+}
+
 
